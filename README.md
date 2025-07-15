@@ -31,7 +31,7 @@ Create a `.env` file in the root directory:
 ```env
 PORT=8000
 MONGO_URI=mongodb+srv://your_username:your_password@cluster0.example.mongodb.net/
-SECRET_KEY=your_secret_key
+API_KEY=your_cloudinary_api_key
 API_SECRET=your_cloudinary_api_secret
 CLOUD_NAME=your_cloudinary_cloud_name
 FRONTEND_URL=https://localhost:5173
