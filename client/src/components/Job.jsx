@@ -63,7 +63,7 @@ const Job = ({ job }) => {
                         variant="ghost"
                         size="icon"
                         onClick={ () => handleSaveForLater(job._id) }
-                        style={ { zIndex: 999 } }  // Ensuring button is on top
+                        style={ { zIndex: 40 } }  // Ensuring button is on top
                     >
                         <BookmarkPlus className="h-5 w-5 text-gray-400" />
                     </Button>
